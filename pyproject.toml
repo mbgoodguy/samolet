@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "new-project"
+version = "0.1.0"
+description = ""
+authors = ["mbgoodguy <nerooren4001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.3"
+pre-commit = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
